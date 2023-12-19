@@ -1,0 +1,64 @@
+:root {
+  --headless-navbar-color: #ed9301;
+  --bs-nav-link-hover-color: white;
+  --bs-navbar-hover-color: white;
+}
+
+body {
+  background-color: #f5f5f5;
+}
+
+.navbar {
+  --bs-navbar-color: black;
+  background-color: var(--headless-navbar-color);
+}
+.navbar-nav {
+  --bs-nav-link-hover-color: white;
+}
+.article-button {
+  border: 1px solid black;
+  border-radius: 4px;
+}
+.article-link {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+.entry-text {
+  z-index: 9999;
+}
+.info-heading {
+  color: #ed9301;
+}
+.white-text {
+  color: white;
+}
+
+.cta-button {
+  background-color: #ed9301;
+  border-radius: 4px;
+}
+
+.cta-button:hover {
+  background-color: black;
+}
+
+.cta-button:hover > .button-text-color {
+  color: white;
+}
+.button-text-color {
+  color: black;
+}
+
+.quantity {
+  background-color: #ed9301;
+  border-radius: 4px;
+  width: 2rem;
+}
+
+#btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+}
